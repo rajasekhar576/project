@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Package to Nexus'){
             steps {
-                sh 'mvn package'
+                sh 'mvn package deploy'
             }
         }
     }
