@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Sonar Analysis') {
             steps {
-                sh 'mvn sonar:sonar -Dsonar.host.url=http://3.227.1.88:9000 -Dsonar.login=90713b05d3a12916463474479ddb7537d039d1d1'
+                sh 'mvn sonar:sonar -Dsonar.host.url=http://3.233.219.57:9000 -Dsonar.login=90713b05d3a12916463474479ddb7537d039d1d1'
             }
         }
     }
